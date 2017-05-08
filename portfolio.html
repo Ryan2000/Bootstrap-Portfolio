@@ -1,83 +1,102 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
+
 <head>
+
     <meta charset="UTF-8">
-    <title>Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Bootstrap Portfolio</title>
+
+    <!--Font Awesome-->
+    <script src="https://use.fontawesome.com/41cd19754c.js"></script>
+
+    <!-- Bootstrap CDN -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/StyleSheet.css">
 </head>
-
 <body>
-<header>
-    <div class="left"> <!--First Edit-->
-        <h1>Ryan Hoyda</h1>
-    </div>
-    <nav>
-        <a class="links" href="index.html">About</a>
-        <a class="links" href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="row">
+                <div id="nav-name" class="col-md-3 col-md-offset-1">
+                    <span class="h2">Ryan Hoyda</span>
+                </div>
+                <div class="col-md-5 col-md-offset-3">
+                    <ul id="nav-links" class="nav navbar-nav">
+                        <li><a class="navbar-link">About</a></li>
+                        <li><a class="navbar-link">Portfolio</a></li>
+                        <li><a class="navbar-link">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </nav>
-</header>
 
-<div class="">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-5 col-md-offset-1 white-background">
+                <div class="row">
+                    <div class="col-md-12 grey-border">
+                        <span class="h2 teal">Portfolio</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="row">
+                        <div id="Hangman" class="col-md-5 padimage">
+                            <span>Hangman</span>
+                        </div>
 
-    <!--About section-->
-    <section id="">
-        <h1>Portfolio</h1><br>
+                        <div id="Sun" class="col-md-5 col-md-offset-2 padimage">
+                            <span>RPG Game</span>
+                        </div>
+                    </div>
+                </div>
 
-        <div id="">
+                <div class="row">
+                    <div class="row">
+                        <div id="NYC" class="col-md-5 padimage">
+                            <span>Triva Game</span>
+                        </div>
 
-            <div id="Hangman">
-                <span>Hangman</span>
+                        <div id="Dreams" class="col-md-5 col-md-offset-2 padimage">
+                            <span>Rutgers Info Widget</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="row">
+                        <div id="Night" class="col-md-5 padimage">
+                            <span>Rock Paper Scissors</span>
+                        </div>
+                    </div>
+                </div>
+
             </div>
+            <div id="sidebar" class="col-md-3 col-md-offset-1 white-background">
+                <div class="row">
+                    <div class="col-md-12 grey-border">
+                        <span class="h4 teal">Connect with Me</span>
+                    </div>
+                </div>
 
-            <div id="Sun">
-                <span>RPG Game</span>
+                <div class="row">
+                    <div class="col-md-12">
+                        <i class="fa fa-github-square" aria-hidden="true"></i>
+                        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                        <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class=col-md-2></div>
             </div>
-
-            <div id="NYC">
-                <span>Trivia Game</span>
-            </div>
-
-            <div id="Dreams">
-                <span>Rutgers Info Widget</span>
-            </div>
-
-            <div id="Night">
-                <span>Rock Paper Scissors</span>
-            </div>
-
         </div>
-
-    </section>
-
-
-    <!--Connect with me sidebar-->
-    <div id="">
-
-        <h2>Connect with Me</h2>
-        <div id="">
-            <a href="https://github.com/Ryan2000">
-                <img src="assets/images/social_media_logo_github-128.png" ></a>
-
-            <a href="https://www.linkedin.com/in/ryan-hoyda-9b632222/">
-                <img src="assets/images/linkedin.png" ></a>
-
-            <a href="http://stackexchange.com/users/10498450/rhoyda">
-                <img src="assets/images/stackoverflow.png" ></a>
-        </div>
-
-
     </div>
 
-
-</div>
-
-<div class="panel-footer">
-    @Copyright 2017 Ryan Hoyda
-</div>
-
+    <footer class="navbar navbar-default navbar-fixed-bottom">
+        <div id="footer-bar" class="container-fluid">
+            @Copyright 2017 Ryan Hoyda
+        </div>
+    </footer>
 </body>
 </html>

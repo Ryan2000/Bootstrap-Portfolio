@@ -1,88 +1,114 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
+
 <head>
-    <head>
-        <meta charset="UTF-8">
-        <title>Contact</title>
-        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    </head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Bootstrap Portfolio</title>
+
+    <!--Font Awesome-->
+    <script src="https://use.fontawesome.com/41cd19754c.js"></script>
+
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/CSS/StyleSheet.css">
 </head>
-
 <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="row">
+                <div id="nav-name" class="col-md-3 col-md-offset-1">
+                    <span class="h2">Ryan Hoyda</span>
+                </div>
+                <div class="col-md-5 col-md-offset-3">
+                    <ul id="nav-links" class="nav navbar-nav">
+                        <li><a class="navbar-link">About</a></li>
+                        <li><a class="navbar-link">Portfolio</a></li>
+                        <li><a class="navbar-link">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
 
-<nav class="navbar navbar-default">
     <div class="container-fluid">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">Ryan Hoyda</a>
-        </div>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+        <div class="row">
+            <div class="col-md-5 col-md-offset-1 white-background">
+                <div class="row">
+                    <div class="col-md-12 grey-border">
+                        <span class="h2 teal">Contact</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <label>Name</label>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <input name="Name" type="text" size="25"></input>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <label>Email</label>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <input name="Email" type="text" size="25">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <label>Message</label>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <textarea name="comments" rows="10" cols="55"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <button type="button">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="sidebar" class="col-md-3 col-md-offset-1 white-background">
+                <div class="row">
+                    <div class="col-md-12 grey-border">
+                        <span class="h4 teal">Connect with Me</span>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <i class="fa fa-github-square" aria-hidden="true"></i>
+                        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                        <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class=col-md-2></div>
+            </div>
         </div>
     </div>
-</nav>
 
-<div class="">
-
-    <!--Contact section-->
-    <section id="">
-        <div id="">
-            <div>
-                <label>Name</label><br/>
-                <input name ="Name" type = "text" size ="25">
-            </div>
-            <div>
-                <label>Email</label><br/>
-                <input name ="Email" type = "text" size ="25">
-            </div>
-            <div>
-                <label>Message</label><br/>
-                <textarea name = "comments"
-                          rows = "10" cols = "65">
-                </textarea>
-            </div>
-            <div>
-                <button type="button">Submit</button>
-            </div>
+    <footer class="navbar navbar-default navbar-fixed-bottom">
+        <div id="footer-bar" class="container-fluid">
+            @Copyright 2017 Ryan Hoyda
         </div>
-    </section>
-
-    <!--Connect with me sidebar-->
-    <!--Connect with me sidebar-->
-    <div id="">
-
-        <h2>Connect with Me</h2>
-        <div id="">
-            <a href="https://github.com/Ryan2000">
-                <img src="assets/images/social_media_logo_github-128.png" ></a>
-
-            <a href="https://www.linkedin.com/in/ryan-hoyda-9b632222/">
-                <img src="assets/images/linkedin.png" ></a>
-
-            <a href="http://stackexchange.com/users/10498450/rhoyda">
-                <img src="assets/images/stackoverflow.png" ></a>
-        </div>
-
-
-    </div>
-
-
-</div>
-
-<footer>
-    @Copyright 2017 Ryan Hoyda
-</footer>
-
+    </footer>
 </body>
 </html>
